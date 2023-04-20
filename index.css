@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:#000;
+    color:#fff;
+}
+.header{
+    width: cover;
+    height: 100vh;
+    background-image: url(desktop-1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 8px;
+}
+.logo{
+    width: 130px;
+    
+
+}
+nav button{
+    border: 0;
+    background-color: #db0001;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left:14px;
+    padding: 8px;
+}
+nav{
+    display:flex ;
+    justify-content: space-between;
+    padding: 8px;
+}
+.button1{
+    background:transparent;
+    border: 2px;
+    border-style: solid;
+    align-items: center;
+}
+.heading{
+    text-align: left;
+    margin-top: 80px;
+    position: absolute;
+    top: 24%;
+    left:10%
+}
+h1{
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 50px;
+    max-width: 500px;
+}
+h2 {
+    margin: 15px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 24px;
+}
+
+
+.signup input{
+    border: 0;
+    margin-left: 20px;
+    outline: 0;
+    flex: 1;
+    
+}
+.signup button {
+    background: #db0001;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+}
+.signup{
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+.nextpage {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+}
+.nextpage h3{
+    font-size: 44px;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.questions{
+    text-align:left;
+    font-size: 30px;
+    padding-top: 16px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+h2{
+    font-size: 24px;
+}
+.acc{
+    width: 100%;
+    max-width: 800px;
+    
+    
+}
+.acc li{
+    list-style: none;
+    padding: 5px;
+    width: 100%;
+    
+}
+.acc li label{
+    
+    font-size: 20px;
+    padding: 15px;
+    align-items:left;
+    background: #303030;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 2px;
+    transition: 0.4s;
+   
+}
+label::after{
+    
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    
+    
+    
+}
+input[type="radio"]{
+    display:none;
+}
+.acc.para {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    overflow: hidden;
+    max-height:0;
+    display: none;
+    
+
+}
+.acc input[type="radio"]:checked+ label +.para{
+    max-height : 600px;
+    padding: 30px 20px;
+}
+
+.acc input[type="radio"]:checked+label+::after{
+    transform:rotate(135deg);
+}
+.questions .signup{
+    
+    max-width: 600px;
+    margin: 18px ;
+}
+h4{
+
+    color: #fff;
+    font-size: 16px;
+    padding: 14px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.footer{
+    padding: 10px;
+    border-top: 10px;
+    color: #fff;
+
+}
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+
+}
+a{
+    display: block;
+    text-decoration:underline;
+    color:#777;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.footer .last {
+    background-color:transparent;
+    color: white;
+    
+    padding: 10px 20px;
+    border-radius: 3px;
+    border-width: 3px;
+    border: 2px;
+    border-style: solid;
+    align-items: center;
+}
+.copyrights{
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: #777;
+}
+.last img{
+    width: 12px;
+    margin-left: 10px;
+}
